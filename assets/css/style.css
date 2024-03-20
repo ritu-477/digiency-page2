@@ -422,6 +422,26 @@ section:hover .iconbox-card {
     color: var(--fc-white);
 }
 
+/* .........................................clients-feedback-slider-1 ...........................*/
+.max-w-text {
+    max-width: 265px;
+}
+
+.padding-4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.slider-box {
+    padding: 34px 35px 25px 65px;
+    background-color: var(--fc-orange);
+}
+
+.img-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 
@@ -500,7 +520,8 @@ section:hover .iconbox-card {
         line-height: 38.62px;
         max-width: 494px;
     }
-   .max-w-t2 {
+
+    .max-w-t2 {
         max-width: 383px;
     }
 
@@ -533,6 +554,10 @@ section:hover .iconbox-card {
         grid-row: 4/5;
         grid-column: 2/3;
     }
+
+    .max-w-text {
+        max-width: 368px;
+    }
 }
 
 @media(min-width:992px) {
@@ -553,6 +578,7 @@ section:hover .iconbox-card {
     .max-w-t {
         max-width: 446px;
     }
+
     .grid-item-1 {
         grid-row: 1/2;
         grid-column: 1/2;
@@ -595,6 +621,10 @@ section:hover .iconbox-card {
     .padding-t1 {
         padding-top: 83px;
         padding-bottom: 60px;
+    }
+
+    .max-w-text {
+        max-width: 460px;
     }
 
 }
