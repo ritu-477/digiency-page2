@@ -8,11 +8,13 @@
     --fs-xl: 25px;
     --fs-xxl: 31px;
     --fs-xxxl: 39.6px;
-    --fs-xxxxl: 48.83px;
+    --fs-xxxxl: 48px;
     --fs-xxxxxl: 64px;
     /* font-color */
     --fc-orange: #ff5300;
     --fc-primary-orange: #FF5300BF;
+    --fc-orange-shadow: #FF530066;
+    --fc-primary-shadow: #FF530080;
     --fc-black: #373737;
     --fc-gray: #7b7b7b;
     --fc-primary-gray: #efefef;
