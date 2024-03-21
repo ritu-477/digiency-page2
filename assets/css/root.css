@@ -36,6 +36,16 @@
     .heading-2 {
         --fs-xl: 31px;
     }
+
+    .stellar {
+        --fs-md: 20px;
+    }
+  .cristofer{
+    --fs-md: 20px;
+  }
+  .justin{
+    --fs-md: 20px;
+  }
 }
 
 @media(min-width:992px) {
@@ -46,4 +56,11 @@
     .heading-2 {
         --fs-xl: 39px;
     }
+
+    .stellar {
+        --fs-md: 25px;
+    }
+          .january {
+              --fs-sm: 16px;
+          }
 }
