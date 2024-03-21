@@ -617,6 +617,14 @@ section:hover .iconbox-card {
     line-height: 24.72px;
     color: var(--fc-gray);
 }
+.toll-free{
+        font-family: 'Work Sans', sans-serif;
+        font-size: var(--fs-lg);
+        font-weight: 500;
+        line-height: 24.72px;
+        color: var(--fc-orange);
+        padding-left: 18px;
+}
 
 
 
