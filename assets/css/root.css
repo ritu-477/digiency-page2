@@ -46,6 +46,9 @@
   .justin{
     --fs-md: 20px;
   }
+  .lorem{
+    --fs-sm: 16px;
+  }
 }
 
 @media(min-width:992px) {

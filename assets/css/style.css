@@ -433,7 +433,7 @@ section:hover .iconbox-card {
 }
 
 .slider-box {
-    padding: 26px 12px 18px 50px;
+    padding: 26px 12px 18px 35px;
     background-color: var(--fc-orange);
     max-width: 510px;
     min-height: 270px;
@@ -442,7 +442,7 @@ section:hover .iconbox-card {
 .img-absolute {
     position: absolute;
     top: 25px;
-    left: -40px;
+    left: -20px;
 }
 
 .justin {
@@ -463,7 +463,7 @@ section:hover .iconbox-card {
 
 .lorem {
     font-family: 'Work Sans', sans-serif;
-    font-size: var(--fs-md);
+    font-size: var(--fs-sm);
     font-weight: 400;
     line-height: 24.1px;
     color: var(--fc-white);
@@ -475,8 +475,8 @@ section:hover .iconbox-card {
 }
 
 .slick-track {
-    margin-left: 7px !important;
-    gap: 53px !important;
+    margin-left: -29px !important;
+    gap: 55px !important;
 }
 
 .slick-dots {
@@ -501,6 +501,10 @@ section:hover .iconbox-card {
     z-index: 1;
     transition: all 200ms linear;
     opacity: 1.25;
+}
+
+.img-w1 {
+    width: 40px;
 }
 
 /* ..........................................................our-blog-slider-2.............................. */
@@ -529,6 +533,7 @@ section:hover .iconbox-card {
     line-height: 30.9px;
     max-width: 170px;
     color: var(--fc-black);
+    padding-bottom: 29px;
 }
 
 .img-w {
@@ -551,10 +556,11 @@ section:hover .iconbox-card {
     font-weight: 400;
     line-height: 15.82px;
     color: var(--fc-gray);
+    white-space: nowrap;
 }
 
-.slick-track {
-    /* gap: 11px !important; */
+.slick-track1 {
+ gap: 11px !important; 
     display: flex !important;
 }
 
@@ -711,6 +717,16 @@ section:hover .iconbox-card {
         margin-left: 7px !important;
         gap: 78px !important;
     }
+
+    .img-w1 {
+        width: 80px;
+    }
+
+    .img-absolute {
+        position: absolute;
+        top: 25px;
+        left: -40px;
+    }
 }
 
 @media(min-width:992px) {
@@ -806,7 +822,7 @@ section:hover .iconbox-card {
     }
 
     .slick-track {
-        margin-left: 30px !important;
+        margin-left: 22px !important;
         gap: 60px !important;
     }
 }

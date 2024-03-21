@@ -12,8 +12,8 @@ $('.responsive').slick({
     autoplay: false,
     slidesToShow: 2,
     slidesToScroll: 1,
-    nextArrow: ".arrowbtnprev",
-    prevArrow: ".arrowbtnnext",
+    nextArrow: "",
+    prevArrow: "",
     responsive: [
         {
             breakpoint: 1440,
