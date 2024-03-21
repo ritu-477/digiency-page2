@@ -560,7 +560,7 @@ section:hover .iconbox-card {
 }
 
 .slick-track1 {
- gap: 11px !important; 
+    gap: 11px !important;
     display: flex !important;
 }
 
@@ -577,8 +577,46 @@ section:hover .iconbox-card {
     max-width: 605px;
 } */
 
+/* .......................................contact-us section....................... */
+.contact-card {
+    box-shadow: 0px 1px 10px 0px var(--fc-black-shadow);
+    background-color: var(--fc-white);
+    padding: 18px 0 24px 18px;
+}
 
+.mail-circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: var(--fc-orange);
+    box-shadow: 4px 5px 15px 0px var(--fc-primary-orange);
+}
 
+.drop-line {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 500;
+    line-height: 30.9px;
+    color: var(--fc-orange);
+    padding-bottom: 11px;
+}
+
+.mail-us {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-xxl);
+    font-weight: 600;
+    line-height: 38.62px;
+    color: var(--fc-black);
+    padding-bottom: 38px;
+}
+
+.support {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--fc-gray);
+}
 
 
 
