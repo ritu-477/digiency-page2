@@ -656,24 +656,38 @@ section:hover .iconbox-card {
     margin-top: 11px;
     box-shadow: 4px 5px 15px 0px var(--fc-orange-shadow);
 }
-.send-message:hover{
+
+.send-message:hover {
     color: var(--fc-orange);
     background-color: var(--fc-white);
     transition: 1s;
 }
-.padding-t5{
+
+.padding-t5 {
     padding-top: 60px;
     padding-bottom: 122px;
 }
-.send-msg{
-        font-family: 'Work Sans', sans-serif;
-        font-size: var(--fs-xl);
-        font-weight: 600;
-        line-height: 38.62px;
-        color: var(--fc-black);
-        padding-bottom: 18px;
+
+.send-msg {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 38.62px;
+    color: var(--fc-black);
+    padding-bottom: 18px;
 }
 
+/* ...............................footter section.......................... */
+.digiency {
+    font-family: 'Work Sans', sans-serif;
+        font-size: var(--fs-xxxl);
+        font-weight: 600;
+        line-height: 48.28px;
+       color: var(--fc-black);
+}
+.lorem1{
+    
+}
 
 
 @media (max-width:991.99px) {
