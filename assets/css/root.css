@@ -40,15 +40,18 @@
     .stellar {
         --fs-md: 20px;
     }
-  .cristofer{
-    --fs-md: 20px;
-  }
-  .justin{
-    --fs-md: 20px;
-  }
-  .lorem{
-    --fs-sm: 16px;
-  }
+
+    .cristofer {
+        --fs-md: 20px;
+    }
+
+    .justin {
+        --fs-md: 20px;
+    }
+
+    .lorem {
+        --fs-sm: 16px;
+    }
 }
 
 @media(min-width:992px) {
@@ -63,7 +66,12 @@
     .stellar {
         --fs-md: 25px;
     }
-          .january {
-              --fs-sm: 16px;
-          }
+
+    .january {
+        --fs-sm: 16px;
+    }
+
+    .send-msg {
+        --fs-xl: 31px;
+    }
 }

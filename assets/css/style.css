@@ -277,8 +277,6 @@ section:hover .iconbox-card {
     background: var(--fc-white);
     box-shadow: 0px 1px 10px 0px var(--fc-black-shadow);
     overflow: hidden;
-    /* max-width: 270px;
-    min-height: 350px; */
 }
 
 
@@ -475,6 +473,7 @@ section:hover .iconbox-card {
 }
 
 .slick-track {
+    display: flex;
     margin-left: -29px !important;
     gap: 55px !important;
 }
@@ -559,10 +558,10 @@ section:hover .iconbox-card {
     white-space: nowrap;
 }
 
-.slick-track1 {
+/* .slick-track1 {
     gap: 11px !important;
     display: flex !important;
-}
+} */
 
 .slick-slide {
     height: inherit !important;
@@ -617,13 +616,62 @@ section:hover .iconbox-card {
     line-height: 24.72px;
     color: var(--fc-gray);
 }
-.toll-free{
+
+.toll-free {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--fc-orange);
+    padding-left: 18px;
+}
+
+.padding-t6 {
+    padding-top: 60px;
+}
+
+.form {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--fc-gray);
+    padding: 18px;
+    border: none;
+    box-shadow: 0px 1px 10px 0px var(--fc-black-shadow);
+    outline: none;
+    margin-bottom: 18px;
+}
+
+.send-message {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--fc-white);
+    padding: 13px 24px 12px 25px;
+    border: 1px solid var(--fc-orange);
+    background-color: var(--fc-orange);
+    border-radius: 5px;
+    margin-top: 11px;
+    box-shadow: 4px 5px 15px 0px var(--fc-orange-shadow);
+}
+.send-message:hover{
+    color: var(--fc-orange);
+    background-color: var(--fc-white);
+    transition: 1s;
+}
+.padding-t5{
+    padding-top: 60px;
+    padding-bottom: 122px;
+}
+.send-msg{
         font-family: 'Work Sans', sans-serif;
-        font-size: var(--fs-lg);
-        font-weight: 500;
-        line-height: 24.72px;
-        color: var(--fc-orange);
-        padding-left: 18px;
+        font-size: var(--fs-xl);
+        font-weight: 600;
+        line-height: 38.62px;
+        color: var(--fc-black);
+        padding-bottom: 18px;
 }
 
 
