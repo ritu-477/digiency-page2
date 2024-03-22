@@ -38,7 +38,7 @@
     }
 
     .stellar {
-        --fs-md: 20px;
+        --fs-md: 21px;
     }
 
     .cristofer {
@@ -64,7 +64,7 @@
     }
 
     .stellar {
-        --fs-md: 25px;
+        --fs-md: 19px;
     }
 
     .january {
@@ -73,5 +73,11 @@
 
     .send-msg {
         --fs-xl: 31px;
+    }
+}
+
+@media(min-width:1200px) {
+    .stellar {
+        --fs-md: 23px;
     }
 }
