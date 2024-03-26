@@ -57,6 +57,10 @@
     padding-bottom: 153px;
 }
 
+.max-w-img1 {
+    max-width: 639px;
+}
+
 .bg-color1 {
     background-color: var(--fc-primary-white);
 }
@@ -95,12 +99,13 @@
     background-color: var(--fc-orange);
     border-radius: 5px;
     border: 1px solid var(--fc-orange);
+
 }
 
 .contact-btn:hover {
     background-color: var(--fc-white);
     color: var(--fc-orange);
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .iconbox-card {
@@ -400,7 +405,7 @@ section:hover .iconbox-card {
     height: 100%;
     position: absolute;
     background: var(--fc-primary-orange);
-    transition: all 200ms linear;
+    transition: all 400ms linear;
     /* padding: 50px 60px 47px 60px; */
     padding-bottom: 47px;
     display: flex;
@@ -677,7 +682,7 @@ section:hover .iconbox-card {
 .send-message:hover {
     color: var(--fc-orange);
     background-color: var(--fc-white);
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .padding-t5 {
@@ -765,7 +770,7 @@ section:hover .iconbox-card {
 }
 
 .gmail {
-    padding-left: 5px;
+    padding-left: 18px;
     background-color: var(--fc-black);
     border: none;
     outline: none;
