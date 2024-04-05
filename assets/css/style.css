@@ -699,6 +699,10 @@ section:hover .iconbox-card {
     padding-bottom: 18px;
 }
 
+.resize {
+    resize: none;
+}
+
 /* ...............................footter section.......................... */
 .digiency {
     font-family: 'Work Sans', sans-serif;
@@ -785,6 +789,7 @@ section:hover .iconbox-card {
     width: 81px;
     height: 61px;
     background-color: var(--fc-orange);
+    margin-left: 8px;
 }
 
 .copyright {
